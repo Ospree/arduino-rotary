@@ -12,12 +12,21 @@ Output is done via serial port. Both encoder positions are stored as int, unsign
 The source code ocupies 3.77kB (12%) of the flash and 280 bytes (13%) od SRAM when running on Arduino Nano (ATmega328P).
 
  HW pins assignment 
+ 
  Encoder A pin  CLK  to Arduino  D2 
+ 
                 DT   to          D9 
+                
                 SW   to          D8 
+                
  Encoder B pin  CLK  to Arduino  D3 
+ 
                 DT   to          D11 
+                
                 SW   to          D10 
+                
  Both enc. pin  +    to          +5V (VCC) 
+ 
                 GND  to          GND 
+                
  
